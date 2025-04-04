@@ -118,10 +118,10 @@
             Console.WriteLine("Escreva um programa que leia quatro notas de um aluno e apresente uma mensagem se foi aprovado, se está em recuperação ou reprovado.\n");
             
             Console.WriteLine("Insira as quatro notas das avaliações (uma por vez): ");
-            int nota1 = int.Parse(Console.ReadLine());
-            int nota2 = int.Parse(Console.ReadLine());
-            int nota3 = int.Parse(Console.ReadLine());
-            int nota4 = int.Parse(Console.ReadLine());
+            double nota1 = double.Parse(Console.ReadLine());
+            double nota2 = double.Parse(Console.ReadLine());
+            double nota3 = double.Parse(Console.ReadLine());
+            double nota4 = double.Parse(Console.ReadLine());
 
             double media = (nota1 + nota2 + nota3 + nota4) / 4.0;
 
